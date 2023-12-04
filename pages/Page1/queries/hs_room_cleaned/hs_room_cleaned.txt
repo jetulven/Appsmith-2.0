@@ -1,0 +1,5 @@
+{
+	roomNum: 1,
+	hotelId: 2,
+	cleaned: true
+}
