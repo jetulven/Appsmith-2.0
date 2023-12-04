@@ -2,12 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "hm_change_shift",
+    "name": "hm_add_shift",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/change_shift"
+        "sshProxyEnabled": false,
+        "url": "web:4000/m/add_shift"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"employeeId\": \"2\",\n    \"dateTimeStart\": \"2023-07-05 18:45:58\",\n    \"dateTimeEnd\": \"2023-07-06 10:40:34\"\n}",
+      "body": "{\n    \"employeeId\": \"40\",\n    \"dateTimeStart\": \"2023-07-05 18:45:58\",\n    \"dateTimeEnd\": \"2023-04-18 01:31:05\"\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -52,9 +53,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T19:50:44Z"
+    "createdAt": "2023-12-04T22:21:33Z"
   },
-  "id": "Page1_hm_change_shift",
+  "id": "Page1_hm_add_shift",
   "deleted": false,
   "gitSyncId": "656d2a161b1a801b2d8ef197_656e2d94790eb137d412e7e0"
 }
