@@ -15,6 +15,14 @@
     {
       "id": "Customer Preferences",
       "isDefault": false
+    },
+    {
+      "id": "Housekeeping Supervisor",
+      "isDefault": false
+    },
+    {
+      "id": "get room status",
+      "isDefault": false
     }
   ],
   "viewMode": false,
