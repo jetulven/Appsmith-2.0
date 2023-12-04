@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 7,
-    "widgetName": "Text1",
+    "widgetName": "Text1Copy",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 26,
+    "leftColumn": 25,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -30,10 +30,10 @@
     "text": "Front Desk Agent Hub\n",
     "key": "lv7ao7v6pt",
     "isDeprecated": false,
-    "rightColumn": 42,
+    "rightColumn": 41,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "21q6xep9v1",
+    "widgetId": "lznciuaf7i",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
