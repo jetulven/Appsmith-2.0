@@ -23,6 +23,10 @@
     {
       "id": "get room status",
       "isDefault": false
+    },
+    {
+      "id": "Hotel manager",
+      "isDefault": false
     }
   ],
   "viewMode": false,
