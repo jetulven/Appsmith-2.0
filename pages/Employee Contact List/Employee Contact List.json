@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Hotel manager",
-    "slug": "hotel-manager",
+    "name": "Employee Contact List",
+    "slug": "employee-contact-list",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 600,
+          "bottomRow": 580,
           "containerStyle": "none",
           "snapRows": 60,
           "parentRowSpace": 1,
@@ -25,10 +25,21 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Employee Contact List_hm_employee_number",
+              "name": "hm_employee_number",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Hotel manager",
+        "id": "Employee Contact List",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e5732a0ac4e52936c7303"
+  "gitSyncId": "656df824a0ac4e52936c72bd_656e5ebda0ac4e52936c7327"
 }

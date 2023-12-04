@@ -31,6 +31,14 @@
     {
       "id": "Employee list",
       "isDefault": false
+    },
+    {
+      "id": "Employee Contact List",
+      "isDefault": false
+    },
+    {
+      "id": "Customer List",
+      "isDefault": false
     }
   ],
   "viewMode": false,

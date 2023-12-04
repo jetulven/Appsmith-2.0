@@ -7,7 +7,8 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/s/roomsCleaned"
+        "sshProxyEnabled": false,
+        "url": "web:4000/s/rooms_cleaned"
       },
       "invalids": [],
       "messages": [],
@@ -52,9 +53,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T22:31:05Z"
+    "createdAt": "2023-12-04T23:44:27Z"
   },
   "id": "get room status_hs_get_room_status",
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e5329a0ac4e52936c72ed"
+  "gitSyncId": "656df824a0ac4e52936c72bd_656e645ba0ac4e52936c7388"
 }
