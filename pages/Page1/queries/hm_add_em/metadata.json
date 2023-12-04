@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"phoneNumber\": \"992-443-2222\",\n\t\"weeklyHours\": \"25\",\n\t\"approvedDaysOff\": null,\n\t\"requestedDaysOffStart\": null,\n\t\"requestedDaysOffEnd\": null, \n\t\"firstName\": \"Alex\",\n\t\"lastName\": \"Johnson\",\n\t\"hourlyPay\": \"16.34\",\n\t\"role\" : \"frontdesk agent\",\n\t\"hotelId\": \"1\"\n \n}",
+      "body": "{\n\t\"phoneNumber\": \"992-443-2222\",\n\t\"weeklyHours\": \"25\",\n\t\"approvedDaysOff\": null,\n\t\"requestedDaysOffStart\": null,\n\t\"requestedDaysOffEnd\": null, \n\t\"firstName\": \"John\",\n\t\"lastName\": \"Johnson\",\n\t\"hourlyPay\": \"18.34\",\n\t\"role\" : \"frontdesk agent\",\n\t\"hotelId\": \"2\"\n \n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -39,7 +39,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
