@@ -60,7 +60,7 @@
     "columnUpdatedAt": 1701721245195,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 102,
-    "widgetName": "employeeId",
+    "widgetName": "employeeForm",
     "defaultPageSize": 0,
     "columnOrder": [
         "employeeId",
@@ -79,7 +79,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "firstName": {
-            "computedValue": "{{employeeId.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"firstName\"]))}}",
+            "computedValue": "{{employeeForm.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"firstName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "firstName",
@@ -110,7 +110,7 @@
             "verticalAlignment": "CENTER"
         },
         "lastName": {
-            "computedValue": "{{employeeId.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastName\"]))}}",
+            "computedValue": "{{employeeForm.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"lastName\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "lastName",
@@ -141,7 +141,7 @@
             "verticalAlignment": "CENTER"
         },
         "employeeId": {
-            "computedValue": "{{employeeId.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"employeeId\"]))}}",
+            "computedValue": "{{employeeForm.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"employeeId\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "employeeId",
