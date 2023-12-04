@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "hm_delete_em",
+    "name": "fd_agent_delete_customer",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/m/deleteEmployee"
+        "url": "web:4000/f/deleteCustomer"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{ \n\t\"employeeId\": 2\n}",
+      "body": "{\n  \"customerId\": 62\n}\n\n",
       "bodyFormData": [],
       "httpMethod": "DELETE",
       "selfReferencingDataPaths": [],
@@ -52,9 +52,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T01:39:05Z"
+    "createdAt": "2023-12-04T16:53:36Z"
   },
-  "id": "Page1_hm_delete_em",
+  "id": "Page1_fd_agent_delete_customer",
   "deleted": false,
-  "gitSyncId": "656d2a161b1a801b2d8ef197_656d2db91b1a801b2d8ef1b8"
+  "gitSyncId": "656df824a0ac4e52936c72bd_656e0410a0ac4e52936c72cc"
 }
