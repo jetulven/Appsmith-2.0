@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"employee_id\" = 3\n  \"date_to_update\" = \"2023-12-04\"\n  \"new_time_off_status\" = true\n}",
+      "body": "{\n\t\"employee_id\" : 3,\n  \"date_to_update\" : \"2023-12-04\",\n  \"new_time_off_status\" : true\n}",
       "bodyFormData": [],
       "httpMethod": "PATCH",
       "selfReferencingDataPaths": [],
