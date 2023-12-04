@@ -11,6 +11,10 @@
     {
       "id": "Front Desk Agent",
       "isDefault": false
+    },
+    {
+      "id": "Customer Preferences",
+      "isDefault": false
     }
   ],
   "viewMode": false,

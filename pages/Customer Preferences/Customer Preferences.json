@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Front Desk Agent",
-    "slug": "front-desk-agent",
+    "name": "Customer Preferences",
+    "slug": "customer-preferences",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 1160,
           "containerStyle": "none",
           "snapRows": 52,
           "parentRowSpace": 1,
@@ -25,10 +25,21 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Customer Preferences_fd__agent_get_all_pref",
+              "name": "fd__agent_get_all_pref",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Front Desk Agent",
+        "id": "Customer Preferences",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e3ec15766622e9ad7c43d_656e467b856d27249c86aac4"
+  "gitSyncId": "656e3ec15766622e9ad7c43d_656e4dd4856d27249c86aac9"
 }
