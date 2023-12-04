@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/s/supplies"
+        "url": "web:4000/s/supplies_in_stock"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"hotelId\": 1\n}",
+      "body": "{\n  \"hotelId\": 2\n}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
