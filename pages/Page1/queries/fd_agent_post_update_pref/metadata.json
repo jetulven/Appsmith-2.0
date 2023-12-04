@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "fk_update_customer_pre",
+    "name": "fd_agent_post_update_pref",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -31,7 +31,7 @@
       "queryParameters": [],
       "body": "{\n  \"customerId\": 1,\n\t\"preference\": \"a\"\n}\n",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -39,7 +39,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "application/json"
+        "apiContentType": "none"
       }
     },
     "executeOnLoad": false,
@@ -52,9 +52,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T01:43:21Z"
+    "createdAt": "2023-12-04T15:28:08Z"
   },
-  "id": "Page1_fk_update_customer_pre",
+  "id": "Page1_fd_agent_post_update_pref",
   "deleted": false,
-  "gitSyncId": "656d2a161b1a801b2d8ef197_656d2eb91b1a801b2d8ef1c1"
+  "gitSyncId": "656d2a161b1a801b2d8ef197_656df0081b1a801b2d8ef1c9"
 }
