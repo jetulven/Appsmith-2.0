@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "hs_room_cleaned",
+    "name": "hs_room_cleaned_change_status",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\troomNum: 1,\n\thotelId: 2,\n\tcleaned: true\n}",
+      "body": "{\n\troomNum: 1,\n\thotelId: 45,\n\tcleaned: false\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -54,7 +54,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-04T22:45:23Z"
   },
-  "id": "Page1_hs_room_cleaned",
+  "id": "Page1_hs_room_cleaned_change_status",
   "deleted": false,
   "gitSyncId": "656d320b562a3048889924ef_656e56837774972e7a85a720"
 }
