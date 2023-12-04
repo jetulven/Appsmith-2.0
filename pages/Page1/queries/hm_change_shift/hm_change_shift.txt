@@ -1,5 +1,0 @@
-{
-    "employeeId": "2",
-    "dateTimeStart": "2023-07-05 18:45:58",
-    "dateTimeEnd": "2023-07-06 10:40:34"
-}
