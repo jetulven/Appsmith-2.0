@@ -50,7 +50,7 @@
     "rightColumn": 33,
     "widgetId": "yw165ru316",
     "minWidth": 450,
-    "label": "Customer Id",
+    "label": "customerId",
     "parentId": "em8i571xwq",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
