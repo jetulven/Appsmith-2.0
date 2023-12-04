@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "hs_update_time_off",
+    "name": "hs_room_cleaned",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/s/update_time_off"
+        "url": "web:4000/s/change_room_cleaned"
       },
       "invalids": [],
       "messages": [],
@@ -30,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"employee_id\" : 13,\n  \"date_to_update\" : \"2023-12-04\",\n  \"new_time_off_status\" : true\n}",
+      "body": "{\n\troomNum: 1,\n\thotelId: 2,\n\tcleaned: true\n}",
       "bodyFormData": [],
-      "httpMethod": "PATCH",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -40,7 +39,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
@@ -53,9 +52,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T22:17:31Z"
+    "createdAt": "2023-12-04T22:45:23Z"
   },
-  "id": "Page1_hs_update_time_off",
+  "id": "Page1_hs_room_cleaned",
   "deleted": false,
-  "gitSyncId": "656d320b562a3048889924ef_656e4ffbe6ee68087ab5045b"
+  "gitSyncId": "656d320b562a3048889924ef_656e56837774972e7a85a720"
 }
