@@ -27,6 +27,10 @@
     {
       "id": "Hotel manager",
       "isDefault": false
+    },
+    {
+      "id": "Customer List",
+      "isDefault": false
     }
   ],
   "viewMode": false,

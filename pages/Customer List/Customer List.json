@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Customer Preferences",
-    "slug": "customer-preferences",
+    "name": "Customer List",
+    "slug": "customer-list",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 600,
+          "bottomRow": 680,
           "containerStyle": "none",
           "snapRows": 52,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Customer Preferences_fd__agent_get_all_pref",
-              "name": "fd__agent_get_all_pref",
+              "id": "Customer List_fd_get_all_customer",
+              "name": "fd_get_all_customer",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Customer Preferences",
+        "id": "Customer List",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e3ec15766622e9ad7c43d_656e4dd4856d27249c86aac9"
+  "gitSyncId": "656e587463a634033b0ecc90_656e58be63a634033b0eccb7"
 }
