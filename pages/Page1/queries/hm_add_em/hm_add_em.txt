@@ -4,10 +4,10 @@
 	"approvedDaysOff": null,
 	"requestedDaysOffStart": null,
 	"requestedDaysOffEnd": null, 
-	"firstName": "Alex",
+	"firstName": "John",
 	"lastName": "Johnson",
-	"hourlyPay": "16.34",
+	"hourlyPay": "18.34",
 	"role" : "frontdesk agent",
-	"hotelId": "1"
+	"hotelId": "2"
  
 }

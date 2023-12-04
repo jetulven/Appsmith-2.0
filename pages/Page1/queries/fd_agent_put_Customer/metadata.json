@@ -31,7 +31,7 @@
       "queryParameters": [],
       "body": "{\n\t\"phoneNumber\": \"650-555-5555\",\n  \"mostRecentStay\": null,\n\t\"firstName\": \"Anya\",\n\t\"lastName\": \"Trubelja\"\n}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

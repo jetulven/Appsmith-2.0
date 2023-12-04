@@ -2,7 +2,15 @@
   "pages": [
     {
       "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Front Desk Agent",
+      "isDefault": false
     }
   ],
   "viewMode": false,
