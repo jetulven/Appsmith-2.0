@@ -7,8 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/m/deleteEmployee"
+        "url": "web:4000/m/delete_employee"
       },
       "invalids": [],
       "messages": [],
@@ -30,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{ \n\tdelete_employee_form.data\n}",
+      "body": "",
       "bodyFormData": [],
       "httpMethod": "DELETE",
       "selfReferencingDataPaths": [],
@@ -53,9 +52,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-04T01:39:05Z"
+    "createdAt": "2023-12-04T23:08:29Z"
   },
   "id": "Page1_hm_delete_em",
   "deleted": false,
-  "gitSyncId": "656d2a161b1a801b2d8ef197_656d2db91b1a801b2d8ef1b8"
+  "gitSyncId": "656d2a161b1a801b2d8ef197_656e5bed130e0e5b5b6d75c7"
 }
