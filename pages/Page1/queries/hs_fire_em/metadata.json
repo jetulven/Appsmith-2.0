@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\temployeeId : 13\n}",
+      "body": "{\n\t\"employeeId\" : 13\n}",
       "bodyFormData": [],
       "httpMethod": "DELETE",
       "selfReferencingDataPaths": [],
