@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Hotel manager",
+    "pageId": "Employee Contact List",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -42,7 +42,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -51,9 +51,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-04T23:21:45Z"
   },
-  "id": "Hotel manager_hm_employee_number",
+  "id": "Employee Contact List_hm_employee_number",
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e5bc7a0ac4e52936c7317"
+  "gitSyncId": "656df824a0ac4e52936c72bd_656e5f09a0ac4e52936c7329"
 }
