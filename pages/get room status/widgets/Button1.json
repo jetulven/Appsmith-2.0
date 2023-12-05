@@ -4,7 +4,7 @@
     "mobileBottomRow": 7,
     "widgetName": "Button1",
     "onClick": "{{navigateTo('Housekeeping Supervisor', {}, 'SAME_WINDOW');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#7e22ce",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -20,16 +20,13 @@
     "animateLoading": true,
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 28,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "leftColumn": 2,
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Back",
     "isDisabled": false,
     "key": "u9kdkfo0bu",
     "isDeprecated": false,
-    "rightColumn": 38,
+    "rightColumn": 12,
     "isDefaultClickDisabled": true,
     "widgetId": "lpvf4aqton",
     "minWidth": 120,

@@ -55,6 +55,10 @@
     {
       "id": "Shifts List",
       "isDefault": false
+    },
+    {
+      "id": "HS Shifts List",
+      "isDefault": false
     }
   ],
   "viewMode": false,

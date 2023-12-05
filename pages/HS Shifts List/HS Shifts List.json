@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "get room status",
-    "slug": "get-room-status",
+    "name": "HS Shifts List",
+    "slug": "hs-shifts-list",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 560,
+          "bottomRow": 690,
           "containerStyle": "none",
-          "snapRows": 60,
+          "snapRows": 52,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 620,
+          "minHeight": 540,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "get room status_hs_get_room_status",
-              "name": "hs_get_room_status",
+              "id": "HS Shifts List_hs_get_shift",
+              "name": "hs_get_shift",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "get room status",
+        "id": "HS Shifts List",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e5239a0ac4e52936c72eb"
+  "gitSyncId": "656e64f9eae381301c62a2f2_656fa1a1b1e9675c4cf1c664"
 }
