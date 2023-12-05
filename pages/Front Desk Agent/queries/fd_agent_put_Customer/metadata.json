@@ -7,8 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/f/addCustomer"
+        "url": "web:4000/f/add_customer"
       },
       "invalids": [],
       "messages": [],
