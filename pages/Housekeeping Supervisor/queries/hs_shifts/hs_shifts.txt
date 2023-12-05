@@ -1,5 +1,1 @@
-{
-	"employeeId": 13,
-	"start": "2023-12-04T08:00:00",
-	"end": "2023-12-04T16:00:00"
-}
+{{post_shift.formData}}

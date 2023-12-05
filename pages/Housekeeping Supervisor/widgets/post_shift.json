@@ -22,8 +22,8 @@
         {"key": "schema.__root_schema__.borderRadius"},
         {"key": "schema.__root_schema__.cellBorderRadius"},
         {"key": "schema.__root_schema__.children.end.defaultValue"},
-        {"key": "schema.__root_schema__.children.end.accentColor"},
-        {"key": "schema.__root_schema__.children.end.borderRadius"}
+        {"key": "schema.__root_schema__.children.end.borderRadius"},
+        {"key": "schema.__root_schema__.children.end.accentColor"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -142,7 +142,7 @@
             "start": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "YYYY-MM-DD HH:mm",
+                "dateFormat": "YYYY-MM-DDTHH:mm:ss",
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.start))(post_shift.sourceData, post_shift.formData, post_shift.fieldState)}}",
                 "accessor": "start",
                 "shortcuts": false,
@@ -191,7 +191,7 @@
             "end": {
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
-                "dateFormat": "YYYY-MM-DD HH:mm",
+                "dateFormat": "YYYY-MM-DDTHH:mm:ss",
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.end))(post_shift.sourceData, post_shift.formData, post_shift.fieldState)}}",
                 "accessor": "end",
                 "shortcuts": false,
