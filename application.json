@@ -39,6 +39,10 @@
     {
       "id": "Customer List",
       "isDefault": false
+    },
+    {
+      "id": "Update Preference",
+      "isDefault": false
     }
   ],
   "viewMode": false,
