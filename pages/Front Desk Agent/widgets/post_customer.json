@@ -127,7 +127,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 97,
+    "originalBottomRow": 100,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -247,7 +247,7 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [{"key": "sourceData"}],
+    "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
     "bottomRow": 100,
     "fieldLimitExceeded": false,
@@ -272,7 +272,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 48,
+    "originalTopRow": 51,
     "mobileLeftColumn": 5,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

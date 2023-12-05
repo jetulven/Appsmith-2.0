@@ -43,6 +43,10 @@
     {
       "id": "Update Preference",
       "isDefault": false
+    },
+    {
+      "id": "Room List",
+      "isDefault": false
     }
   ],
   "viewMode": false,
