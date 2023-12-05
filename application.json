@@ -59,6 +59,10 @@
     {
       "id": "HS Shifts List",
       "isDefault": false
+    },
+    {
+      "id": "Employees List",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -1,3 +1,1 @@
-{ 
-	delete_employee_form.data
-}
+{{delete_employee.formData}}

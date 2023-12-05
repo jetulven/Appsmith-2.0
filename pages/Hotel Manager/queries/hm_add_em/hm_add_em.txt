@@ -1,13 +1,1 @@
-{
-	"phoneNumber": "992-443-2222",
-	"weeklyHours": "25",
-	"approvedDaysOff": null,
-	"requestedDaysOffStart": null,
-	"requestedDaysOffEnd": null, 
-	"firstName": "John",
-	"lastName": "Johnson",
-	"hourlyPay": "18.34",
-	"role" : "frontdesk agent",
-	"hotelId": "2"
- 
-}
+{{add_employee.formData}}
