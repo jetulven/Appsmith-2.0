@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Employee list",
-    "slug": "employee-list",
+    "name": "Housekeepers List",
+    "slug": "housekeepers-list",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 550,
           "containerStyle": "none",
-          "snapRows": 60,
+          "snapRows": 52,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 620,
+          "minHeight": 540,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Employee list_hm_employee",
-              "name": "hm_employee",
+              "id": "Housekeepers List_hs_get_housekeepers",
+              "name": "hs_get_housekeepers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Employee list",
+        "id": "Housekeepers List",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e5ccfa0ac4e52936c7322"
+  "gitSyncId": "656e64f9eae381301c62a2f2_656f845a65d8b3000fd4b5ee"
 }

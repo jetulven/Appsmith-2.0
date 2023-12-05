@@ -22,7 +22,7 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 6,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "text": "Get Room Status",
+    "text": "Get room status",
     "isDisabled": false,
     "key": "4irw4pgdku",
     "isDeprecated": false,

@@ -25,11 +25,11 @@
       "isDefault": false
     },
     {
-      "id": "Hotel manager",
+      "id": "Hotel Manager",
       "isDefault": false
     },
     {
-      "id": "Employee list",
+      "id": "Employee List",
       "isDefault": false
     },
     {
@@ -50,6 +50,14 @@
     },
     {
       "id": "Supply Inventory List",
+      "isDefault": false
+    },
+    {
+      "id": "Housekeepers List",
+      "isDefault": false
+    },
+    {
+      "id": "Shifts List",
       "isDefault": false
     }
   ],

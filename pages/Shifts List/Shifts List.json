@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Hotel manager",
-    "slug": "hotel-manager",
+    "name": "Shifts List",
+    "slug": "shifts-list",
     "layouts": [
       {
         "viewMode": false,
@@ -13,22 +13,21 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 600,
+          "bottomRow": 530,
           "containerStyle": "none",
-          "snapRows": 60,
+          "snapRows": 52,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 620,
+          "minHeight": 540,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Hotel manager",
+        "id": "Shifts List",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +38,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e5732a0ac4e52936c7303"
+  "gitSyncId": "656e64f9eae381301c62a2f2_656f88d665d8b3000fd4b5fc"
 }

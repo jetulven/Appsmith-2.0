@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "hm_employee",
+    "name": "hs_get_housekeepers",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/m/Employee"
+        "url": "web:4000/s/get_housekeepers"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Hotel manager",
+    "pageId": "Housekeepers List",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -46,9 +45,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-05T20:12:26Z"
   },
-  "id": "Hotel manager_hm_employee",
+  "id": "Housekeepers List_hs_get_housekeepers",
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e5baca0ac4e52936c7315"
+  "gitSyncId": "656e64f9eae381301c62a2f2_656f842a65d8b3000fd4b5eb"
 }

@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "hm_get_shift",
+    "name": "hs_get_housekeepers",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/m/Shift"
+        "url": "web:4000/s/get_housekeepers"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Hotel manager",
+    "pageId": "Housekeeping Supervisor",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -48,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Hotel manager_hm_get_shift",
+  "id": "Housekeeping Supervisor_hs_get_housekeepers",
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e5c39a0ac4e52936c731d"
+  "gitSyncId": "656e64f9eae381301c62a2f2_656f858f65d8b3000fd4b5f0"
 }

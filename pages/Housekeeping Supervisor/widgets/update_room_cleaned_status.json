@@ -6,13 +6,11 @@
     "topRow": 22,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 5,
+    "leftColumn": 7,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
-        {"key": "resetButtonStyles.buttonColor"},
         {"key": "resetButtonStyles.borderRadius"},
         {"key": "schema.__root_schema__.children.roomNum.defaultValue"},
         {"key": "schema.__root_schema__.children.roomNum.accentColor"},
@@ -34,7 +32,7 @@
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#7e22ce",
         "buttonVariant": "SECONDARY"
     },
     "isVisible": true,
@@ -124,7 +122,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 60,
+    "originalBottomRow": 63,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -217,7 +215,7 @@
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#7e22ce",
         "buttonVariant": "PRIMARY"
     },
     "dynamicPropertyPathList": [],
@@ -234,9 +232,9 @@
     "sourceData": "{\"roomNum\": \"\",\n\"hotelId\": \"\",\n\"cleaned\": \"\"}",
     "resetButtonLabel": "Reset",
     "key": "ofrlc208zo",
-    "backgroundColor": "#fff",
+    "backgroundColor": "#d4d4d8",
     "isDeprecated": false,
-    "rightColumn": 30,
+    "rightColumn": 32,
     "widgetId": "bxqhukqof5",
     "minWidth": 450,
     "parentId": "0",

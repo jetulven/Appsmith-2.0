@@ -4,7 +4,7 @@
     "mobileBottomRow": 37,
     "widgetName": "Button3",
     "onClick": "{{fd_agent_delete_customer.run()}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#1d4ed8",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -19,10 +19,7 @@
     "animateLoading": true,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 32,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Submit",
     "isDisabled": false,
     "key": "8y1mu5xwlc",

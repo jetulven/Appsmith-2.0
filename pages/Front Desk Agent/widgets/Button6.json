@@ -4,7 +4,7 @@
     "mobileBottomRow": 7,
     "widgetName": "Button6",
     "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#1d4ed8",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -21,10 +21,7 @@
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "borderRadius"}],
     "text": "Back",
     "isDisabled": false,
     "key": "7jyzslwhft",

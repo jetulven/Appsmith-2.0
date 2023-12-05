@@ -10,9 +10,7 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
-        {"key": "resetButtonStyles.buttonColor"},
         {"key": "resetButtonStyles.borderRadius"},
         {"key": "schema.__root_schema__.children.employeeId.defaultValue"},
         {"key": "schema.__root_schema__.children.employeeId.accentColor"},
@@ -28,7 +26,7 @@
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#7e22ce",
         "buttonVariant": "SECONDARY"
     },
     "isVisible": true,
@@ -167,7 +165,7 @@
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#7e22ce",
         "buttonVariant": "PRIMARY"
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
@@ -175,7 +173,7 @@
     "bottomRow": 49,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Fire an Employee",
+    "title": "Fire a Housekeeper",
     "hideCard": false,
     "mobileRightColumn": 29,
     "parentColumnSpace": 11.796875,
@@ -184,7 +182,7 @@
     "sourceData": "{\"employeeId\": \"\"}",
     "resetButtonLabel": "Reset",
     "key": "ofrlc208zo",
-    "backgroundColor": "#fff",
+    "backgroundColor": "#d4d4d8",
     "isDeprecated": false,
     "rightColumn": 60,
     "widgetId": "1sf4ikgos5",

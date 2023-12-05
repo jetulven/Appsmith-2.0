@@ -10,9 +10,7 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
-        {"key": "resetButtonStyles.buttonColor"},
         {"key": "resetButtonStyles.borderRadius"},
         {"key": "schema.__root_schema__.children.phoneNumber.defaultValue"},
         {"key": "schema.__root_schema__.children.phoneNumber.accentColor"},
@@ -37,7 +35,7 @@
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#1d4ed8",
         "buttonVariant": "SECONDARY"
     },
     "isVisible": true,
@@ -244,7 +242,7 @@
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#1d4ed8",
         "buttonVariant": "PRIMARY"
     },
     "dynamicPropertyPathList": [],

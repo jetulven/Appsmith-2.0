@@ -22,7 +22,7 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 23,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "text": "Get Supply Inventory",
+    "text": "Get supply inventory",
     "isDisabled": false,
     "key": "4irw4pgdku",
     "isDeprecated": false,
