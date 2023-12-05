@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"hotelId\": 1\n}",
+      "body": "{\n  \"hotelId\": 32\n}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],

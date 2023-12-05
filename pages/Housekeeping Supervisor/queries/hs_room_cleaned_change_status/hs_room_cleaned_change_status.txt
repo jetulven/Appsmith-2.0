@@ -1,5 +1,1 @@
-{
-	roomNum: 1,
-	hotelId: 45,
-	cleaned: false
-}
+{{update_room_cleaned_status.formData}}

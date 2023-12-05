@@ -47,6 +47,10 @@
     {
       "id": "Room List",
       "isDefault": false
+    },
+    {
+      "id": "Supply Inventory List",
+      "isDefault": false
     }
   ],
   "viewMode": false,

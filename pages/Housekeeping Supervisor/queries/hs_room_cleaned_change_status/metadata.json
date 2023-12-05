@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\troomNum: 1,\n\thotelId: 45,\n\tcleaned: false\n}",
+      "body": "{{update_room_cleaned_status.formData}}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -43,11 +43,17 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "update_room_cleaned_status.formData"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

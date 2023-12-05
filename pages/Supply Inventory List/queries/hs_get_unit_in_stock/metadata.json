@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "hs_get_unit_in_stockCopy",
+    "name": "hs_get_unit_in_stock",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Housekeeping Supervisor",
+    "pageId": "Supply Inventory List",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -43,7 +43,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -52,9 +52,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-05T15:40:26Z"
   },
-  "id": "Housekeeping Supervisor_hs_get_unit_in_stockCopy",
+  "id": "Supply Inventory List_hs_get_unit_in_stock",
   "deleted": false,
-  "gitSyncId": "656e64f9eae381301c62a2f2_656e84f64a086d383da5f0b4"
+  "gitSyncId": "656e64f9eae381301c62a2f2_656f446adaf04d0a80df75e9"
 }
