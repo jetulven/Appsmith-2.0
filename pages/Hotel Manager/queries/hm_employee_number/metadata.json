@@ -30,6 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
+      "body": "{{Change_Employee_Phone_Number.formData}}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -43,15 +44,22 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "Change_Employee_Phone_Number.formData"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-04T23:21:22Z"
   },
   "id": "Hotel Manager_hm_employee_number",
   "deleted": false,
