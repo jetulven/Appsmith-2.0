@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "hm_update_employee",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"employeeId\": 4,\n\t\"phoneNumber\": \"605-555-5555\"\n}",
+      "body": "{{Change_Employee_Phone_Number.formData}}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -43,17 +43,24 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "Change_Employee_Phone_Number.formData"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-06T00:33:57Z"
   },
-  "id": "Hotel Manager_Api1",
+  "id": "Hotel Manager_hm_update_employee",
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656fb1ef1c913560834262c9"
+  "gitSyncId": "656e64f9eae381301c62a2f2_656fc1752d16866e25e1f38b"
 }

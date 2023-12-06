@@ -32,7 +32,7 @@
       "queryParameters": [],
       "body": "{{add_employee.formData}}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
