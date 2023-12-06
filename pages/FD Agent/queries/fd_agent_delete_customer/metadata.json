@@ -2,13 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "fd_agent_put_Customer",
+    "name": "fd_agent_delete_customer",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/f/add_customer"
+        "url": "web:4000/f/delete_customer"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Front Desk Agent",
+    "pageId": "FD Agent",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,9 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{post_customer.formData}}",
+      "body": "{{delete_customer.formData}}",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "DELETE",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -53,14 +53,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "post_customer.formData"
+      "delete_customer.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Front Desk Agent_fd_agent_put_Customer",
+  "id": "FD Agent_fd_agent_delete_customer",
   "deleted": false,
-  "gitSyncId": "656e64f9eae381301c62a2f2_656e6ffdeae381301c62a346"
+  "gitSyncId": "656e650c173cc2165e323d69_65709e76a40fdf0fc307b462"
 }

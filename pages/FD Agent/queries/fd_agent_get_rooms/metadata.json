@@ -2,13 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "fd_agent_delete_customer",
+    "name": "fd_agent_get_rooms",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/f/delete_customer"
+        "url": "web:4000/f/getRooms"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Front Desk Agent",
+    "pageId": "FD Agent",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,9 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Delete_Customer.data}}",
+      "body": "{{room_list.formData}}",
       "bodyFormData": [],
-      "httpMethod": "DELETE",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -40,7 +40,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
@@ -53,14 +53,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Delete_Customer.data"
+      "room_list.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Front Desk Agent_fd_agent_delete_customer",
+  "id": "FD Agent_fd_agent_get_rooms",
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e6329a0ac4e52936c7385"
+  "gitSyncId": "656e650c173cc2165e323d69_65709e87a40fdf0fc307b466"
 }

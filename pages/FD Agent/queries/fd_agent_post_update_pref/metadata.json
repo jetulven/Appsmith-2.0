@@ -2,13 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "fd_agent_get_rooms",
+    "name": "fd_agent_post_update_pref",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/f/getRooms"
+        "url": "web:4000/f/preference"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Front Desk Agent",
+    "pageId": "FD Agent",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,9 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{room_list.formData}}",
+      "body": "{{update_preference.formData}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -40,7 +40,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "application/json"
+        "apiContentType": "none"
       }
     },
     "executeOnLoad": false,
@@ -53,14 +53,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "room_list.formData"
+      "update_preference.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Front Desk Agent_fd_agent_get_rooms",
+  "id": "FD Agent_fd_agent_post_update_pref",
   "deleted": false,
-  "gitSyncId": "656e64f9eae381301c62a2f2_656e7217eae381301c62a348"
+  "gitSyncId": "656e650c173cc2165e323d69_65709e90a40fdf0fc307b468"
 }

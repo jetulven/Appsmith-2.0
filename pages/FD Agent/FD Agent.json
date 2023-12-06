@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Front Desk Agent",
-    "slug": "front-desk-agent",
+    "name": "FD Agent",
+    "slug": "fd-agent",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1040,
+          "bottomRow": 1050,
           "containerStyle": "none",
-          "snapRows": 52,
+          "snapRows": 66,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 540,
+          "minHeight": 680,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Front Desk Agent",
+        "id": "FD Agent",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656e3ec15766622e9ad7c43d_656e467b856d27249c86aac4"
+  "gitSyncId": "656e650c173cc2165e323d69_65709e1ca40fdf0fc307b45e"
 }

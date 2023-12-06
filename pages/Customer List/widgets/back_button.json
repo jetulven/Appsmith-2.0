@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 65,
     "widgetName": "back_button",
-    "onClick": "{{navigateTo('Front Desk Agent', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('FD Agent', {}, 'SAME_WINDOW');}}",
     "buttonColor": "#1d4ed8",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

@@ -5,10 +5,6 @@
       "isDefault": true
     },
     {
-      "id": "Front Desk Agent",
-      "isDefault": false
-    },
-    {
       "id": "Customer Preferences",
       "isDefault": false
     },
@@ -66,6 +62,10 @@
     },
     {
       "id": "Shift Management System",
+      "isDefault": false
+    },
+    {
+      "id": "FD Agent",
       "isDefault": false
     }
   ],
