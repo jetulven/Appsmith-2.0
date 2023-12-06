@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 2,
-    "bottomRow": 14,
+    "topRow": 12,
+    "bottomRow": 24,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 20,
+    "leftColumn": 18,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"},
@@ -30,7 +30,7 @@
     "text": "Hello, welcome to Lodgistix! What is your role?",
     "key": "lv7ao7v6pt",
     "isDeprecated": false,
-    "rightColumn": 47,
+    "rightColumn": 45,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "ga3knfqd85",
@@ -48,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 4,
     "responsiveBehavior": "fill",
-    "originalTopRow": 2,
+    "originalTopRow": 12,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 20,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 14,
+    "originalBottomRow": 24,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

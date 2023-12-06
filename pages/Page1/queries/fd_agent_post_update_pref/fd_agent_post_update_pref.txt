@@ -1,4 +1,0 @@
-{
-  "customerId": 1,
-	"preference": "a"
-}

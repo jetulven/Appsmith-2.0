@@ -1,6 +1,0 @@
-{
-	"phoneNumber": "650-555-5555",
-  "mostRecentStay": null,
-	"firstName": "Anya",
-	"lastName": "Trubelja"
-}

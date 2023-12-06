@@ -22,7 +22,7 @@
     "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 33,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "text": "Get a list of all rooms",
+    "text": "Get a list of all room occupancy",
     "isDisabled": false,
     "key": "nv0gptcbiv",
     "isDeprecated": false,

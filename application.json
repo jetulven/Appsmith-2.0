@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Page1",
-      "isDefault": false
-    },
-    {
       "id": "Home",
       "isDefault": true
     },
@@ -17,7 +13,7 @@
       "isDefault": false
     },
     {
-      "id": "Housekeeping Supervisor",
+      "id": "Housekeeping Supervisor Room",
       "isDefault": false
     },
     {
@@ -66,6 +62,10 @@
     },
     {
       "id": "Housekeeper Management System",
+      "isDefault": false
+    },
+    {
+      "id": "Shift Management System",
       "isDefault": false
     }
   ],
