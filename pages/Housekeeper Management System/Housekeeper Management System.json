@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Housekeeping Supervisor",
-    "slug": "housekeeping-supervisor",
+    "name": "Housekeeper Management System",
+    "slug": "housekeeper-management-system",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 670,
+          "bottomRow": 650,
           "containerStyle": "none",
-          "snapRows": 60,
+          "snapRows": 52,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 620,
+          "minHeight": 540,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Housekeeping Supervisor",
+        "id": "Housekeeper Management System",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e5052a0ac4e52936c72e8"
+  "gitSyncId": "656e64f9eae381301c62a2f2_656fd6317df5d07f553a2b63"
 }

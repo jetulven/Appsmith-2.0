@@ -31,6 +31,7 @@
     "isDeprecated": false,
     "rightColumn": 20,
     "isDefaultClickDisabled": true,
+    "iconName": "desktop",
     "widgetId": "rubr5ogns0",
     "minWidth": 120,
     "isVisible": true,
@@ -48,5 +49,6 @@
     "mobileLeftColumn": 13,
     "originalBottomRow": 21,
     "buttonVariant": "PRIMARY",
+    "iconAlign": "left",
     "placement": "CENTER"
 }

@@ -21,7 +21,7 @@
       "isDefault": false
     },
     {
-      "id": "get room status",
+      "id": "Get Room Status",
       "isDefault": false
     },
     {
@@ -62,6 +62,10 @@
     },
     {
       "id": "Employees List",
+      "isDefault": false
+    },
+    {
+      "id": "Housekeeper Management System",
       "isDefault": false
     }
   ],

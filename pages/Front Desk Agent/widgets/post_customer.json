@@ -243,7 +243,9 @@
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
         "buttonColor": "#1d4ed8",
-        "buttonVariant": "PRIMARY"
+        "iconName": "add",
+        "buttonVariant": "PRIMARY",
+        "iconAlign": "left"
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",

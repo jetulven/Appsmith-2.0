@@ -22,12 +22,12 @@
     "leftColumn": 20,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
-        {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "fontFamily"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello, welcome to our HotelFranchiseDB! What is your role?",
+    "text": "Hello, welcome to Lodgistix! What is your role?",
     "key": "lv7ao7v6pt",
     "isDeprecated": false,
     "rightColumn": 47,
