@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "hm_add_shift",
+    "name": "Api1",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/m/add_shift"
+        "url": "web:4000/m/update_employee"
       },
       "invalids": [],
       "messages": [],
@@ -30,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{add_shift.formData}}",
+      "body": "{\n\t\"employeeId\": 4,\n\t\"phoneNumber\": \"605-555-5555\"\n}",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -44,23 +43,17 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "add_shift.formData"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Hotel Manager_hm_add_shift",
+  "id": "Hotel Manager_Api1",
   "deleted": false,
-  "gitSyncId": "656df824a0ac4e52936c72bd_656e5c13a0ac4e52936c731b"
+  "gitSyncId": "656df824a0ac4e52936c72bd_656fb1ef1c913560834262c9"
 }
