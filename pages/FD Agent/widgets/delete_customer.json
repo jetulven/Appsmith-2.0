@@ -166,7 +166,9 @@
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
         "buttonColor": "#1d4ed8",
-        "buttonVariant": "PRIMARY"
+        "iconName": "delete",
+        "buttonVariant": "PRIMARY",
+        "iconAlign": "left"
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
